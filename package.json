@@ -1,0 +1,16 @@
+{
+  "name": "playwright-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "codegen": "npx playwright codegen",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.35.1"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
